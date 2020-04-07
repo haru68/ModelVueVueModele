@@ -17,7 +17,8 @@ namespace ModeleVueVueModele
         {
             base.OnStartup(e);
 
-            ModeleVueVueModele.View.MainPage shopsWindow = new View.MainPage();
+            //ModeleVueVueModele.View.MainPage shopsWindow = new View.MainPage();
+            ModeleVueVueModele.MainWindow shopsWindow = new MainWindow();
             ShopViewModel VM = new ShopViewModel();
             shopsWindow.DataContext = VM;
             shopsWindow.Show();
